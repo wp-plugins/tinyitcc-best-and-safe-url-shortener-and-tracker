@@ -13,7 +13,7 @@ Dont have an API key? Register and get it now at http://tinyit.cc/getapi.html
 
 == Installation ==
 
-1. Upload the `Tinyit_shorturl` folder to `/wp-content/plugins/`.
+1. Upload the `tinyitcc-best-and-safe-url-shortener-and-tracker` folder to `/wp-content/plugins/`.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. You can change the default short URL service in 'Settings' -> 'Tinyit Short URL'
 
