@@ -107,7 +107,7 @@ class Tinyit_Short_URL
         {
             $opt[$key] = get_option('TinyitShortUrl' . $key);
         }
-        include '../wp-content/plugins/Tinyit-short-url/template/settings.tpl.php';
+        include '../wp-content/plugins/tinyitcc-best-and-safe-url-shortener-and-tracker/template/settings.tpl.php';
     }
 
     /**
@@ -146,7 +146,7 @@ class Tinyit_Short_URL
         $shortUrlEncoded = urlencode($shortUrl);
 
         ob_start();
-        include './wp-content/plugins/Tinyit-short-url/template/public.tpl.php';
+        include './wp-content/plugins/tinyitcc-best-and-safe-url-shortener-and-tracker/template/public.tpl.php';
         $content .= ob_get_contents();
         ob_end_clean();
 
